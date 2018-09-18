@@ -38,7 +38,7 @@ public class AShiLib {
     public static int sumUpTo(int int1)
     {
 
-
+            int asd = 1;
 
     }
 }
