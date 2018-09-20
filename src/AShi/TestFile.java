@@ -1,7 +1,8 @@
 package AShi;
-import static AShi.AShiLib.dateStr;
-import static AShi.AShiLib.isPalindrome;
-import static AShi.AShiLib.println;
+/**ALSTON SHI 9/20/2018 */
+
+import static AShi.AShiLib.*;
+
 public class TestFile {
     public static void main(String[] args)
     {
@@ -11,6 +12,8 @@ public class TestFile {
         println(dateStr);
 
         System.out.println(isPalindrome("racecar"));
+        System.out.println(sumUpTo(5));
+        fooBarBaz(5);
 
     }
 

@@ -1,5 +1,5 @@
 package AShi;
-
+/**ALSTON SHI 9/20/2018 */
 public class AShiLib {
 
     public static void println(String str)
@@ -34,11 +34,46 @@ public class AShiLib {
 
 
     }
-
     public static int sumUpTo(int int1)
     {
-
-            int asd = 1;
-
+            int totalSum = 0;
+            while(int1 > 0)
+            {
+                totalSum+= int1;
+                int1--;
+            }
+            return(totalSum);
     }
+    public static void fooBarBaz(int int3)
+    {
+            String outPutStr= "";
+            while(int3>0)
+            {
+                if(int3%3 == 0 && int3%5 == 0)
+                {
+                    outPutStr += "baz" + ",";
+                }
+                else{
+                    if (int3 % 3 == 0) {
+                        outPutStr += "foo" + "," ;
+
+                    }
+                    else
+                    {
+                        if(int3%5 == 0)
+                        {
+                            outPutStr += "bar" + ",";
+                        }
+                        else
+                        {
+                            outPutStr += int3 + ",";
+                        }
+                    }
+                }
+                int3--;
+            }
+        System.out.println(outPutStr);
+    }
+
+
 }
