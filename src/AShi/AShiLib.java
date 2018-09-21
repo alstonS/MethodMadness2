@@ -74,6 +74,19 @@ public class AShiLib {
             }
         System.out.println(outPutStr);
     }
+    /*
+    public static int leastCommonMultiple(int num1,int num2, int num3)
+    {
+        int prime1=0;
+        int prime2=0;
+        int prime3=0;
+        int a= num1-1;
+        int b= num2-1;
+        int c= num3-1;
+        while(!num1%a)
+        {
 
+        }
 
+    }*/
 }

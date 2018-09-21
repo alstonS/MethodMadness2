@@ -11,9 +11,9 @@ public class TestFile {
         String dateStr = dateStr("09/18/2018");
         println(dateStr);
 
-        System.out.println(isPalindrome("racecar"));
-        System.out.println(sumUpTo(5));
-        fooBarBaz(5);
+        System.out.println(isPalindrome("racecars"));
+        System.out.println(sumUpTo(6));
+        fooBarBaz(16);
 
     }
 
