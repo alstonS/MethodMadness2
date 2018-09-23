@@ -87,6 +87,31 @@ public class AShiLib {
         {
 
         }
+   primePrinter(100);
+    }
 
+    public static void primePrinter(int num)
+    {
+        String str = "";
+        int numT = num;
+        while(num>=0)
+        {
+            for (int i = numT - 1; numT > 0; i--)
+                if (num % i != 0)
+
+                    str += String.valueOf(num);
+
+            num --;
+        }
     }*/
+    public static void multiplicationTable(int base, int range)
+    {
+        String mList="";
+        for(int i = 0 ; i <= range; i++)
+        {
+            int product = base*i;
+            mList += base + "*" + i + "=" + product + "|";
+        }
+        System.out.println(mList);
+    }
 }

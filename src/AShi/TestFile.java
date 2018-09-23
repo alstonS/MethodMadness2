@@ -14,6 +14,7 @@ public class TestFile {
         System.out.println(isPalindrome("racecars"));
         System.out.println(sumUpTo(6));
         fooBarBaz(16);
+        multiplicationTable(2,5);
 
     }
 
