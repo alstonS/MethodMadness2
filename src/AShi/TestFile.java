@@ -8,13 +8,13 @@ public class TestFile {
     {
         println("I love a cup of Java in the morning :0 ");
 
-        String dateStr = dateStr("09/18/2018");
-        println(dateStr);
 
-        System.out.println(isPalindrome("racecars"));
-        System.out.println(sumUpTo(6));
-        fooBarBaz(16);
+        System.out.println(dateStr("09/18/2018"));
+        System.out.println(isPalindrome("racecar"));
+        System.out.println(sumUpTo(-10));
+        fooBarBaz(12);
         multiplicationTable(2,5);
+        System.out.println(quadSolver(0,3,2));
 
     }
 
